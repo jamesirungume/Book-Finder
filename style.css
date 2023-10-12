@@ -72,4 +72,15 @@ footer {
         padding: 20px;
         background-color: #e8f5e9; /* This is a soft, light green color */
         font-size: 20px;
-     }                             
+     }    
+footer p {
+        margin: 0;
+        padding: 0;
+    }
+footer p:first-child {
+        font-size: 1.2em;
+    }
+ footer p:last-child {
+        font-size: 0.9em;
+        color: #666;
+    }                             
