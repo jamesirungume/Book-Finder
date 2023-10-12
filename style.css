@@ -54,4 +54,7 @@ h1, h2 {
 .search-button:hover {
         background-color: #45a049;
     }
-                             
+ul {
+        list-style-type: none;
+        padding-left: 20px;
+    }                           
