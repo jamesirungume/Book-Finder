@@ -65,4 +65,11 @@ ul {
         content: '✓';
         color: #4CAF50;
         margin-right: 10px;
-    }                           
+    }
+footer {
+        text-align: center;
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #e8f5e9; /* This is a soft, light green color */
+        font-size: 20px;
+     }                             
