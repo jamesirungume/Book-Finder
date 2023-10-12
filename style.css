@@ -57,4 +57,12 @@ h1, h2 {
 ul {
         list-style-type: none;
         padding-left: 20px;
+    }   
+ ul li {
+        margin-bottom: 10px;
+     }
+ ul li::before {
+        content: '✓';
+        color: #4CAF50;
+        margin-right: 10px;
     }                           
