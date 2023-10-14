@@ -91,3 +91,30 @@ a {
 a:hover {
         text-decoration: underline;
     }                               
+
+    
+    
+    .book-item {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 10px;
+        display: inline-block;
+        vertical-align: top;
+        width: calc(18% - 20px);
+    }
+    
+    .book-item img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    .book-item h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .book-item p {
+        margin-bottom: 10px;
+    }
+    

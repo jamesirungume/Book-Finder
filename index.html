@@ -11,26 +11,18 @@
 <body>
     <header>
         <h1>Book Classifier</h1>
-        <p>Welcome to Book Classifier - your one-stop destination for searching and categorizing books from around the world.</p>
+        <p>Welcome to Book Classifier - your one-stop destination for searching and categorizing books.</p>
         <p>Our platform is built upon cutting-edge technology that ensures fast and accurate search results, making your reading journey smoother than ever.</p>
     </header>
     <section class="search-section">
-        <input type="text" class="search-input" placeholder="Enter book name">
-        <button class="search-button">Search</button>
-        <div class="results"></div>
-
-        <input type="text" class="search-input" placeholder="Enter author's name">
-        <button class="search-button">Search</button>
-        <div class="results"></div>
-
-        <input type="text" class="search-input" placeholder="Enter genre">
-        <button class="search-button">Search</button>
-        <div class="results"></div>
-
-        <input type="text" class="search-input" placeholder="Enter publisher's name">
-        <button class="search-button">Search</button>
-        <div class="results"></div>
+       <!-- For Book Name -->
+       <input type="text" class="search-input" id="bookNameInput" placeholder="Enter book name">
+       <button class="search-button" id="bookNameSearchButton">Search</button>
+       <div class="book-display" id="bookNameDisplay"></div>
     </section>
+
+    <div id="bookList"></div>
+
 
     <section class="info-section">
         <h2>Why Choose Book Classifier?</h2>
@@ -47,7 +39,7 @@
            <p>Leave a comment in the email below</p>
            <p><a href="https://mail.google.com/mail/u/0/#inbox">bookclasifier@gmail.com</a></p>
     </footer>
-    
+    <script src="index.js"></script>
 </body>
 
 </html>
