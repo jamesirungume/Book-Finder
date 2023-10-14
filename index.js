@@ -10,4 +10,18 @@ async function searchBooksByName(bookName) {
         }
     };
 
+	try {
+        const response = await fetch(url, options);
+        const books = await response.json(); // Assuming the response is in JSON format
 
+        let outputHtml = '';
+        for (const book of books) {
+            outputHtml += `
+                <div class="book-item">
+                    <img src="${book.cover}" alt="${book.name}" />
+                    <h3><a href="${book.url}" target="_blank">${book.name}</a></h3>
+                    <p>Rating: ${book.rating}</p>
+                    <p>Year: ${book.year}</p>
+                </div>
+            `;
+        }
