@@ -5,9 +5,9 @@ async function searchBooksByName(bookName) {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '6b3542ccbbmsh9b69be6392a288fp1473e1jsn40f76518b8bc',
-            'X-RapidAPI-Host': 'hapi-books.p.rapidapi.com'
-        }
+			'X-RapidAPI-Key': 'ffb668fae2mshfabd9dd1d59f0bap19c816jsnefd9f613e3c6',
+			'X-RapidAPI-Host': 'hapi-books.p.rapidapi.com'
+		}
     };
 
 	try {
@@ -42,7 +42,7 @@ async function searchBooksByName(bookName) {
 		const options = {
 			method: 'GET',
 			headers: {
-				'X-RapidAPI-Key': '6b3542ccbbmsh9b69be6392a288fp1473e1jsn40f76518b8bc',
+				'X-RapidAPI-Key': 'ffb668fae2mshfabd9dd1d59f0bap19c816jsnefd9f613e3c6',
 				'X-RapidAPI-Host': 'hapi-books.p.rapidapi.com'
 			}
 		};
